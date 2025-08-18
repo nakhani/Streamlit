@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: counter-app
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
