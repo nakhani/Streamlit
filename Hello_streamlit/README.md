@@ -40,7 +40,8 @@ An interactive app for exploring CSV data using Streamlit.
 ### 🚀 Deployment
 
 This app is deployed for free using **Streamlit Community Cloud**.
-🔗 **Live App**: [Click here to view and use the Counter App online](https://your-liara-app-url.com) 
+
+🔗 **Live App**: [Click here to view and use the Datascience App online](https://your-liara-app-url.com) 
 
 ---
 
