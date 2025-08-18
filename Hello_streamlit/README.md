@@ -14,7 +14,7 @@ A playful counter app built with Streamlit.
 - Minimalist layout using `st.columns`
 
 ### Demo
-<img src="counter_App/1.gif" width="300">
+<img src="counter_App/1.gif" width="500">
 
 ### 🚀 Deployment
 
@@ -35,7 +35,7 @@ An interactive app for exploring CSV data using Streamlit.
 - 📝 Sidebar with app description
 
 ### Demo
-<img src="DataScience_App/2.gif" width="300">
+<img src="DataScience_App/2.gif" width="500">
 
 ### 🚀 Deployment
 
