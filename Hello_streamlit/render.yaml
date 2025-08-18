@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: counter-app
+    name: hello-streamlit
     env: docker
     plan: free
     dockerfilePath: Dockerfile
