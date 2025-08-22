@@ -18,9 +18,10 @@ A playful counter app built with Streamlit.
 
 ### 🚀 Deployment
 
-This app is deployed using **Docker** on [Liara](https://liara.ir/), a powerful cloud platform for developers.
+This app is deployed using **Docker** on [Render](https://render.com/), a powerful cloud platform for developers.
 
-🔗 **Live App**: [Click here to view and use the Counter App online](https://your-liara-app-url.com)  
+
+🔗 **Live App**: [Click here to view and use the Counter App online](https://counter-app-streamlit.onrender.com/)  
 
 ---
 
@@ -78,7 +79,7 @@ streamlit run datascience_app.py
 - Pandas
 - Altair
 - Docker
-- Liara
+- Render
 
 
 
