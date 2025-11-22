@@ -5,6 +5,7 @@ from sqlmodel import SQLModel, Field, Relationship
 import uuid
 
 class User(SQLModel, table=True):
+    __table_args__ = {"extend_existing": True}
     id: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True)
     email: str = Field(index=True, unique=True)
     username: str = Field(index=True, unique=True)
