@@ -29,16 +29,17 @@ A streamlined chat experience:
 ## Demo
 - Welcome and login screen
 
-  <img src="docs/1.png" width="300">
-  <img src="docs/2.png" width="300">
+  <img src="docs/1.png" width="500">
+
+  <img src="docs/2.png" width="500">
 
 - Chat interface with responses
 
-  <img src="docs/3.png" width="300">
+  <img src="docs/3.png" width="500">
 
 - Conversation history by date
 
-  <img src="docs/4.png" width="300">
+  <img src="docs/4.png" width="500">
 
 ---
 
