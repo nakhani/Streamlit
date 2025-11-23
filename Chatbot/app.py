@@ -8,7 +8,7 @@ from auth.widgets import AuthWidget
 from ai.eden_client import EdenClient
 from chat.service import ChatService
 
-st.set_page_config(page_title="Najmeh Chatbot", page_icon="✨", layout="centered")
+st.set_page_config(page_title="Astella Chatbot", page_icon="✨", layout="centered")
 
 
 engine = get_engine(DB_URL)

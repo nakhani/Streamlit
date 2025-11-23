@@ -1,4 +1,4 @@
-# Najmeh Chatbot
+# Astella Chatbot
 
 This is a clean, minimal, and production-ready Streamlit chatbot that blends elegant UI/UX with robust authentication, conversation history, and EdenAI integration. It’s built to feel personal, secure, and scalable.
 
