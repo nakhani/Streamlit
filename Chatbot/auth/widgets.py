@@ -1,4 +1,4 @@
-# auth/widgets.py
+
 import streamlit as st
 from streamlit_cookies_manager import CookieManager
 
@@ -8,7 +8,7 @@ from streamlit_cookies_manager import CookieManager
 class AuthWidget:
     def __init__(self, auth_service, cookie_name="chatbot_session"):
         self.auth = auth_service
-        self.cookies = CookieManager(prefix="chatbot")  # configure key via env for production
+        self.cookies = CookieManager(prefix="chatbot")  
         if not self.cookies.ready():
             st.stop()
 

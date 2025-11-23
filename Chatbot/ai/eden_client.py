@@ -1,10 +1,10 @@
-# ai/eden_client.py
+
 import os
 import requests
-import streamlit as st  # برای نمایش خطا در UI
+import streamlit as st  
 
 class EdenClient:
-    def __init__(self, api_key: str = None, provider: str = "openai", model: str = "gpt-4o-mini"):
+    def __init__(self, api_key: str = None, provider: str = "openai", model: str = "gpt-3.5-turbo"):
         self.api_key = api_key or os.getenv("EDENAI_API_KEY")
         self.provider = provider
         self.model = model
@@ -17,7 +17,7 @@ class EdenClient:
         headers = {"Authorization": f"Bearer {self.api_key}"}
         payload = {
             "providers": self.provider,
-            "model": self.model,          # اضافه کردن مدل
+            "model": self.model,          
             "text": messages[-1]["content"],
             "temperature": 0.7,
             "max_tokens": 512,
@@ -28,7 +28,7 @@ class EdenClient:
             r.raise_for_status()
             data = r.json()
 
-            # EdenAI پاسخ را در ساختار provider-specific برمی‌گرداند
+            
             if self.provider in data and "generated_text" in data[self.provider]:
                 return data[self.provider]["generated_text"]
             else:

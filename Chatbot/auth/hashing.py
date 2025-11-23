@@ -1,4 +1,4 @@
-# auth/hashing.py
+
 import bcrypt
 
 def hash_password(plain: str) -> str:

@@ -1,4 +1,4 @@
-# auth/service.py
+
 from sqlmodel import Session as DBSession
 from db.repos import UserRepo, SessionRepo
 from db.models import User

@@ -1,4 +1,4 @@
-# app.py
+
 import streamlit as st
 from sqlmodel import Session as DBSession
 from db.engine import get_engine
@@ -10,7 +10,7 @@ from chat.service import ChatService
 
 st.set_page_config(page_title="Najmeh Chatbot", page_icon="✨", layout="centered")
 
-# Initialize services
+
 engine = get_engine(DB_URL)
 db = DBSession(engine)
 auth = AuthService(db)
@@ -30,7 +30,7 @@ else:
     st.title("Chat")
     auth_widget.logout_button()
 
-    # Input field
+    
     user_input = st.text_input("Type your message…")
 
     # Chat response
