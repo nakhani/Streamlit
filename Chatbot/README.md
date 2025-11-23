@@ -106,7 +106,7 @@ streamlit run app.py
 │  ├─ service.py
 │  └─ repositories.py
 ├─ docs/
-│  └─ images/
+│  
 └─ requirements.txt
 ```
 
